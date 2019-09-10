@@ -4,6 +4,7 @@ class Application
     resp = Rack::Response.new
     
     if 
+      resp.write
   end
   
 end
